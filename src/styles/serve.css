@@ -1,0 +1,52 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.slider_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.images{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.sliders_btn{
+    position: absolute;
+ 
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.sliders_left_btn{
+    position: absolute;
+  
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.card__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    width: 100vw;
+    height: 400px;
+    position: relative;
+}
+
+.hero_title{
+    position: relative;
+    bottom: 200px;
+    color: #131313;
+}
