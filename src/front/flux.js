@@ -4,12 +4,18 @@ import image4 from "../images/image4.jpg"
 import shutterstock from "../images/shutterstock_375018883.jpg"
 import image5 from "../images/account.jpg"
 import image6 from "../images/scott-graham-5fNmWej4tAA-unsplash.jpg"
-import image7 from "../images/national-cancer-institute-OHx5zVsv_gY-unsplash.jpg"
+import image7 from "../images/avertimage.jpg"
 import image8 from "../images/irwan-iwe-rbDE93-0hHs-unsplash.jpg"
 import image9 from "../images/thisisengineering-raeng-pIdteYOzGFY-unsplash.jpg"
 import image10 from "../images/credimage.jpg"
 import image11 from "../images/codeimg.jpg"
 import image12 from "../images/chargeimage.jpg"
+import image13 from "../images/payimage.jpg"
+import image14 from "../images/claimsimage.jpg"
+import image15 from "../images/contractimg.jpg"
+import image16 from "../images/denimg.jpg"
+import image17 from "../images/acountimg.jpg"
+
 const  getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
@@ -52,8 +58,9 @@ const  getState = ({ getStore, getActions, setStore }) => {
 				{
 					id:6,
 					label:"Charge Entry",
-					description:"Charge capture plays a crucial role in Medical Billing. Charge capture or entry is a process of creating clain for a service rendered by the provider to the patient. A clain is the most important aspect for getting reimbursement. Even a minor mistake in charge capture impacts the entire outcome. ABC gives high importance for accurate charge posting in order to submit clean claims. CMB's goal is to get paid at the very first submission and the team relentlessly pushes harder to achieve higher first-pass rate of claims. We are experienced in various Practice Management Systems and various medical specialties. We have predefined rules in charge entry for different medical specialties, which reduces the room for errors and contributes to clean claims.",
-					image:image6
+					description:"Charge capture plays a crucial role in Medical Billing. Charge capture or entry is a process of creating clain for a service rendered by the provider to the patient. A clain is the most important aspect for getting reimbursement. Even a minor mistake in charge capture impacts the entire outcome. CMB gives high importance for accurate charge posting in order to submit clean claims. CMB's goal is to get paid at the very first submission and the team relentlessly pushes harder to achieve higher first-pass rate of claims. We are experienced in various Practice Management Systems and various medical specialties. We have predefined rules in charge entry for different medical specialties, which reduces the room for errors and contributes to clean claims.",
+					image:image6,
+					title:"CMB provide medical coding at a safe and secure practice"
 				},
 				{
 					id:7,
@@ -96,19 +103,19 @@ const  getState = ({ getStore, getActions, setStore }) => {
 					id:12,
 					label:"Payment Posting",
 					description:"Accuracy in payment posting and medical billing service is imperative for an optimized revenue cycle.",
-					image:""
+					image:image13
 				},
 				{
 					id:13,
 					label:"Claims Submission",
 					description:"CMB Submits all claims electronically within 48 hours of charges received time. Electronic claim submission speeds up the process in medical billing.  The clearinghouse prorvides a comfirmation that the claim have reached the payer on time.Electronic claim submission reduces reject6ions and denials drastically.  CMB submits claims electronically to almost all clearinghouses and familiar with the clearainghouse portals.  Many payers have very strict claims filing time limits  Electronic claim filing helps ot stay on time and  enhance cash flow.  Before the claims are submitted the following checks are made.",
-					image:""
+					image:image14
 				},
 				{
 					id:14,
-					label:"Charge Entry",
+					label:"data Entry",
 					description:"All charges entered are checked for errors.  CMB collects data on common errors and fixes systemic problems that affec payment delays and bad debt, this helps improve collection rates and helpd to protect future cash flow",
-					image:""
+					image:image3
 				},
 				{
 					id:15,
@@ -120,29 +127,30 @@ const  getState = ({ getStore, getActions, setStore }) => {
 					id:16,
 					label:"Denial Management",
 					description:"CMB is well experienced with working denials trained to identify the root cause of a denial.  CMB can handle denials efficently and effectly.",
-					image:""
+					image:image16
 				},
 				{
 					id:17,
 					label:"Account Receivable",
 					description:"CMB follows up on claims in 30 working days from the claims submission date.  The goals of AR in medical billing services time to achieve the shortest colection as possible.",
-					image:""
+					image:image17
 				},
 				{
 					id:18,
 					label:"Patient Statement Service",
 					description:"Patient statement service is a crucial part of a pract6ice.  Here are the services we offer to keep the patient acco9unt receivable low. ",
-					image:""
+					image:image4
 				},
 				{
 					id:19,
 					label:"Month to Month Contract",
 					description:"All our exsting and new clients are month to month.  We work around long term goals within short period the practice will understand how far CMB excels in collectiong your claim payments.  CMB can assure 5 to 10 % increase in revenue within 60 days.",
-					image:""
+					image:image15
 				},
  
 				
-			]
+			],
+		
 			
 			
 	

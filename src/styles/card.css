@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 .card_main {
     margin: 10px;
@@ -23,13 +20,15 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      
   }
   .card_main{
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
-      justify-content: space-evenly;
+     
       border-radius: 8px;
+
   }
   .image_main{
       display: flex;
@@ -84,4 +83,6 @@
       align-items: center;
       flex-direction: row;
       flex-wrap: wrap;
+      grid-template-columns: auto;
   }
+  

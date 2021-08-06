@@ -12,7 +12,7 @@ export const Services = () => {
 	return(
 		<div className="hero_cont">
 			<div className="hero">
-				<ServeSliders slides={store.service}/>
+				<ServeSliders slides={store.services}/>
 				
 			
 

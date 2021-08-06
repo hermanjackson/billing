@@ -34,7 +34,7 @@ export const Home = () => {
 						<div className="services__card">
 							<h2 className="services_title">{item.label}</h2>
 							<img className="card_images" src={item.image} alt="" />
-							<Link to={"services/"} >
+							<Link to={"/about"} >
 							<button   className="card-btn">learn More</button>
 							</Link>
 						</div>

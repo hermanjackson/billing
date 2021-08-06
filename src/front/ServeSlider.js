@@ -1,39 +1,44 @@
 import React, {useContext , useState, useEffect, useRef} from "react";
 import { Context } from "./appContext";
+import {FaAngleDoubleRight} from 'react-icons/fa';
+import{FaAngleDoubleLeft} from 'react-icons/fa';
 import "../styles/serve.css"
 
 
 function ServeSliders(sliders){
     const [currents, setCurrents] = useState(0);
   
-    const lenghts = sliders.lenght
+    const lengths = sliders.slides.length
     const {store, actions}= useContext(Context);
     const timeout = useRef(null);
     const nextSlide = ()=>{
-        setCurrents(currents === lenghts - 1 ? 0 : currents + 1)
+        setCurrents(currents === lengths - 1 ? 0 : currents + 1)
     };
     useEffect(()=>{
+        console.log(currents,lengths, sliders)
         const nextSlide =()=>{
-            setCurrents(currents=> (currents === lenghts - 1 ? 0 : currents + 1))
+            setCurrents(currents=> (currents === lengths - 1 ? 0 : currents + 1))
+
 
         }
-        timeout.current = setTimeout(nextSlide, 2000);
+        timeout.current = setTimeout(nextSlide, 3000);
         return function (){
             if(timeout.currents) {
                 clearTimeout(timeout.currents)
             }
         }
-    },[currents, lenghts])
+    },[currents, lengths])
     const prevSlide = ()=>{
-        setCurrents(currents === 0  ? lenghts  - 1 : currents - 1)
+        setCurrents(currents === 0  ? lengths  - 1 : currents - 1)
     }
-    if(Array.isArray(sliders) || sliders.lenghts <= 0){
+    if(Array.isArray(sliders) || sliders.lengths <= 0){
         return null
     }
     return (
         <div className="slider">
-              <button type="button" className="sliders_left_btn" onClick={prevSlide}/ >
-                <button  type="button" className="sliders_btn" onClick={nextSlide}/>
+             <FaAngleDoubleLeft type="button" className="slider_left_btn" onClick={prevSlide}/ >
+            < FaAngleDoubleRight  type="button" className="slider_btn" onClick={nextSlide}/>
+             
         
            
        
@@ -43,9 +48,11 @@ function ServeSliders(sliders){
                         {index === currents && (
                             <>
                             
-                            <div className="hero_cont">
+                            <div className="hero_contain">
                              <img className="images"  alt="" src={item.image}/>
+                             
                              <h1 className="hero_title">{item.title}</h1>
+                            
                              </div>
                              
                              </>
