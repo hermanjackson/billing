@@ -15,6 +15,7 @@ import image14 from "../images/claimsimage.jpg"
 import image15 from "../images/contractimg.jpg"
 import image16 from "../images/denimg.jpg"
 import image17 from "../images/acountimg.jpg"
+import image18 from  "../images/image18.png"
 
 const  getState = ({ getStore, getActions, setStore }) => {
 	return {
@@ -31,19 +32,19 @@ const  getState = ({ getStore, getActions, setStore }) => {
 				{
 					id: 2,
 					label:"patient billing",
-					description:"mkkmmjm",
+					description:"",
 					image:image3
 				},
 				{
 					id: 3,
 					label:"insurance payment posting",
-					description:"jnnjnjnj",
+					description:"",
 					image:image4
 				},
 				{
 					id: 4,
 					label:"file claims",
-					description:"njjnnjj",
+					description:"",
 					image:shutterstock
 				},
 			],
@@ -73,7 +74,7 @@ const  getState = ({ getStore, getActions, setStore }) => {
 				{
 					id:8,
 					label:"Claims Submission",
-					description:"CMB Submits all claims electronically within 48 hours of charges received time. Electronic claim submission speeds up the process in medical billing.  The clearinghouse prorvides a comfirmation that the claim have reached the payer on time.Electronic claim submission reduces reject6ions and denials drastically.  CMB submits claims electronically to almost all clearinghouses and familiar with the clearainghouse portals.  Many payers have very strict claims filing time limits  Electronic claim filing helps ot stay on time and  enhance cash flow.  Before the claims are submitted the following checks are made.",
+					description:"CMB Submits all claims electronically within 48 hours of charges received time. Electronic claim submission speeds up the process in medical billing.  The clearinghouse prorvides a comfirmation that the claim have reached the payer on time.Electronic claim submission reduces rejections and denials drastically.  CMB submits claims electronically to almost all clearinghouses and familiar with the clearinghouse portals.  Many payers have very strict claims filing time limits  Electronic claim filing helps ot stay on time and  enhance cash flow.  Before the claims are submitted the following checks are made.",
 					image:image8,
 					title:"CMB Submit all Claims electronically within 48 hours"
 				},
@@ -108,7 +109,7 @@ const  getState = ({ getStore, getActions, setStore }) => {
 				{
 					id:13,
 					label:"Claims Submission",
-					description:"CMB Submits all claims electronically within 48 hours of charges received time. Electronic claim submission speeds up the process in medical billing.  The clearinghouse prorvides a comfirmation that the claim have reached the payer on time.Electronic claim submission reduces reject6ions and denials drastically.  CMB submits claims electronically to almost all clearinghouses and familiar with the clearainghouse portals.  Many payers have very strict claims filing time limits  Electronic claim filing helps ot stay on time and  enhance cash flow.  Before the claims are submitted the following checks are made.",
+					description:"CMB Submits all claims electronically within 48 hours of charges received time. Electronic claim submission speeds up the process in medical billing.  The clearinghouse prorvides a comfirmation that the claim have reached the payer on time.Electronic claim submission reduces rejections and denials drastically.  CMB submits claims electronically to almost all clearinghouses and familiar with the clearainghouse portals.  Many payers have very strict claims filing time limits  Electronic claim filing helps to stay on time and  enhance cash flow.  Before the claims are submitted the following checks are made.",
 					image:image14
 				},
 				{
@@ -138,7 +139,7 @@ const  getState = ({ getStore, getActions, setStore }) => {
 				{
 					id:18,
 					label:"Patient Statement Service",
-					description:"Patient statement service is a crucial part of a pract6ice.  Here are the services we offer to keep the patient acco9unt receivable low. ",
+					description:"Patient statement service is a crucial part of a pract6ice.  Here are the services we offer to keep the patient account receivable low. ",
 					image:image4
 				},
 				{

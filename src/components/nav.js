@@ -1,16 +1,20 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import "../styles/nav.css"
+import image18 from  "../images/image18.png"
 
 
 export const Navbar = () => {
     return (
         <nav className="navbar">
 			<div className="navbar__container">
+			<Link to={"/"}>
 				<h1 href="#home" id="navbar__logo">
+					<img src={image18} className="logo" alt="logo"></img>
 				
 				
 				</h1>
+			</Link>	
 				<ul className="navbar__menu">
 					<Link to={"/services"}>
 						<li className="navbar__item">
@@ -27,16 +31,10 @@ export const Navbar = () => {
 							</span>
 						</li>
 					</Link>
-					<Link to={"/about"}>
-						<li className="navbar__item">
-							<span href="#about" className="navbar__links" id="about-page">
-							about
-							</span>
-						</li>
-					</Link>
-					<Link to={"/contact"}>
+					
+					<Link to={"/smsform"}>
 						<li className="navbar__btn">
-							<span href="contact" className="button" id="contact">
+							<span href="smsform" className="button" id="contact">
 								contact us
 							</span>
 						</li>

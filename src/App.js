@@ -3,7 +3,7 @@ import { Home } from './front/home';
 import { Navbar } from './components/nav';
 import injectContext from "./front/appContext";
 import {Services} from "../src/front/services"
-import {About} from "../src/front/about";
+import SMSForm from "./front/smsform";
 import { Breadcrumb } from "./components/breadcrumb";
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
           <Route exact path="/services">
             <Services />
           </Route>
-          <Route exact path="/about">
-            <About />
+          <Route exact path="/smsform">
+            < SMSForm />
           </Route>
         
         </Switch>

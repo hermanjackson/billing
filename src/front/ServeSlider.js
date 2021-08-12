@@ -51,7 +51,7 @@ function ServeSliders(sliders){
                             <div className="hero_contain">
                              <img className="images"  alt="" src={item.image}/>
                              
-                             <h1 className="hero_title">{item.title}</h1>
+                            
                             
                              </div>
                              
